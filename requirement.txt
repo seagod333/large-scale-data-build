@@ -1,0 +1,48 @@
+Large-Scale Data Collection Automation (LSDCA)
+    Scrapping / Database Integration / Error Management
+
+site-url: https://min-repo.com/
+https://min-repo.com/2564229/?kishu=%E6%8A%BC%E5%BF%8D%EF%BC%81%E7%95%AA%E9%95%B74
+
+Required
+-reliable, low-cost, high-speed scraping of daily data from a website
+-Ideally: retrieve the previous day's data within approximately one week
+-scraping must be completed quickly(targeting within three hours). from 6:00am to 9:00am
+-If retrieval within three hours is difficult, alternative solution is required.
+*Website maintenance hours are 5:00 AM - 6:00 AM
+
+Data Collection
+-400,000 records of data per day from over 2000 stores nationwide within three hours.
+-Retrieve data in order from the most recent to the latest, with recovery for missing data.
+-Use proxy management and GAS to avoid source IP restrictions.
+-high-speed data collection through distributed processing.
+-Implement retry and delay control when errors or missing data occur.
+-Log system for errors and missing data, allowing for automatic or easy re-fetching.
+-Optimize the entire error handing process.
+
+
+Exucution Environment
+-OS: Ubuntu (4G Memory / 600G storage)
+-Database: MySQL but use Mongodb for now.
+
+DB_tables
+    area_masters
+    daily_slot_data
+    machine_models
+    prefecture_models
+    store_masters
+
+Data_field:
+    machine Number
+    Difference in Sheets
+    Gambling
+    Payout Rate
+    BB
+    RB
+    Combination
+    BB Rate
+    RB Rate
+    Store Name
+    Machine Name
+    etc.
+
