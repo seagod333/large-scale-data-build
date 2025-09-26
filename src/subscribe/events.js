@@ -1,1 +1,1 @@
-'use strict';Object['defineProperty'](exports,'__esModule',{'value':!![]});const events_1=require('events');global['eventEmitter']=new events_1['EventEmitter'](),eventEmitter['on']('eventName',async _0x23b5a6=>{});
+'use strict';Object['defineProperty'](exports,'__esModule',{'value':!![]});const events_1=require('events');global['eventEmitter']=new events_1['EventEmitter'](),eventEmitter['on']('eventName',async _0x53852a=>{});
